@@ -1,28 +1,32 @@
 import React, { useState } from 'react';
 
 const SplashPage = () => {
-    // State to hold the input value
-    const [inputValue, setInputValue] = useState('');
+    const [zipCode, setZipCode] = useState('');
 
-    // Function to update state based on input changes
     const handleInputChange = (event) => {
-        setInputValue(event.target.value);
+        setZipCode(event.target.value);
+    };
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log("ZIP Code entered:", zipCode);
+        // Here you can add logic to handle the ZIP code (e.g., store, search, etc.)
     };
 
     return (
-        <div id="main" style={{ margin: '50px' }}>
-            <h1>Comedy! Comedy!</h1>
-            <input
-                type="text"
-                value={inputValue}
-                onChange={handleInputChange}
-                maxLength="25"
-                placeholder="Enter text here..."
-                style={{ padding: '10px', fontSize: '16px', margin: '10px 0' }}
-            />
-            <div style={{ marginTop: '20px', fontSize: '20px', color: 'blue' }}>
-                {inputValue}
-            </div>
+        <div style={{ margin: '50px' }}>
+            <h1>Welcome to Our Event Platform!</h1>
+            <form onSubmit={handleSubmit}>
+                <input
+                    type="text"
+                    value={zipCode}
+                    onChange={handleInputChange}
+                    maxLength="5"
+                    placeholder="Enter your ZIP code"
+                    style={{ padding: '10px', fontSize: '16px', margin: '10px 0' }}
+                />
+                <button type="submit" style={{ padding: '10px 20px' }}>Submit</button>
+            </form>
         </div>
     );
 };
