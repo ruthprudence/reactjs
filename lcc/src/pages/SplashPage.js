@@ -10,7 +10,7 @@ const SplashPage = () => {
     };
 
     return (
-        <div style={{ margin: '50px' }}>
+        <div id="main" style={{ margin: '50px' }}>
             <h1>Comedy! Comedy!</h1>
             <input
                 type="text"

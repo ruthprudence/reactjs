@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Comedy Night Live",
+        "date": "2024-05-01",
+        "venueId": 1,
+        "description": "Join us for a night of laughter with top comedians from around the country."
+    },
+    {
+        "id": 2,
+        "name": "Laugh Out Loud",
+        "date": "2024-05-15",
+        "venueId": 2,
+        "description": "Experience the best of urban comedy at Laugh Out Loud. It's going to be a hilarious evening!"
+    },
+    {
+        "id": 3,
+        "name": "Standup Stars",
+        "date": "2024-06-01",
+        "venueId": 3,
+        "description": "See the rising stars of standup comedy perform live at The Open Stage."
+    }
+]

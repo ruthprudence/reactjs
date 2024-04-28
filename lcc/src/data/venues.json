@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Jet City Improv",
+        "address": "5031 University Way NE, Suite #208, Seattle, WA 98105",
+        "website": "www.jetcityimprov.org",
+        "email": "reservations@jetcityimprov.org"
+    },
+    {
+        "id": 2,
+        "name": "Unexpected Productions",
+        "address": "1428 Post Alley, Seattle, WA 98101",
+        "website": "www.unexpectedproductions.org",
+        "email": "info@unexpectedproductions.org",
+        "phone": "206.587.2414"
+    },
+    {
+        "id": 3,
+        "name": "e.i. bar & stage",
+        "address": "2610 colby ave., everett, wa. 98201",
+        "website": "www.everettimprov.com",
+        "email": "everettimprov@gmail.com",
+        "phone": "(425) 259-5912"
+    }
+]

@@ -39,5 +39,13 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data/`, // Points to the folder where your JSON files are stored
+      },
+    },
+    `gatsby-transformer-json`, // This transforms JSON files into queryable GraphQL nodes
   ],
 }
